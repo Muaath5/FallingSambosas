@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Falling Sambosas</title>
+        <meta name="description" content="Basic offline game based on a MRB3 problem on codeforces">
+        <meta name="keywords" content="mrb3, MRB3, MRB#, falling-sambosas, plummeting-sambosas, offline-game">
+        <link rel="stylesheet" href="/FallingSambosas/css/game.css">
+    </head>
+    <body>
+        <div id="sky">
+            <header>
+                <h3>Score: <code id="score"></code></h3>
+                <h3>Time: <code id="time"></code></h3>
+            </header>
+            <svg id="player" style="z-index: 10; top: 600px; left: 0px;" xmlns="http://www.w3.org/2000/svg">
+                <polygon class="emad" points="0,20 20,20 10,0" />
+            </svg>
+        </div>
+        <div id="ground">
+        </div>
+        <div id="x-axis">
+            <span style="position: absolute; left: 0px">0</span>
+            <span style="position: absolute; left: 50px">1</span>
+            <span style="position: absolute; left: 100px">2</span>
+            <span style="position: absolute; left: 150px">3</span>
+            <span style="position: absolute; left: 200px">4</span>
+            <span style="position: absolute; left: 250px">5</span>
+            <span style="position: absolute; left: 300px">6</span>
+            <span style="position: absolute; left: 350px">7</span>
+            <span style="position: absolute; left: 400px">8</span>
+            <span style="position: absolute; left: 450px">9</span>
+        </div>
+
+        <div>
+            <button id="sample" onclick="processInput()">Sample</button>
+            <button id="random" onclick="randomInput()">Random</button>
+            <button id="clear" onclick="clearSambosas()">Clear</button>
+        </div>
+        <div>
+            <label for="moves">Moves:</label>
+            <input display="block" id="moves" type="text" placeholder="[1, 0, -1, -1, 1, 0, 1]">
+            <button onclick="start()">Start Simulation</button>
+        </div>
+
+        <script src="./js/game.js"></script>
+    </body>
+</html>

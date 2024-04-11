@@ -1,0 +1,1 @@
+const RefreshRate = 30; // millisecond

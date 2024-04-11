@@ -1,0 +1,15 @@
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(79, 161, 219);
+    padding: 10px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: rgb(91, 181, 246);
+}
+
+.center {
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 # Falling Sambosas
 
-This game was created after Falling Sambosas problem in [MRB3 Ramadan Contest 1445](https) orignally by [emad234](https://codeforces.com/emad234).
+This game was created after Falling Sambosas problem in [MRB3 Ramadan Contest 1445](https) orignally by [emad234](https://codeforces.com/profile/emad234).
 
 ## Algorithm
 
